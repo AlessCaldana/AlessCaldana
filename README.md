@@ -1,128 +1,149 @@
+<!doctype html>
+<html lang="es" data-theme>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alessandro Caldana – Portafolio</title>
+  <meta name="description" content="Portafolio y perfil profesional de Alessandro Caldana – Ingeniero de Sistemas y Desarrollador Web." />
+  <meta name="author" content="Alessandro Caldana" />
+  <meta property="og:title" content="Portafolio – Alessandro Caldana" />
+  <meta property="og:description" content="Ingeniero de Sistemas y Desarrollador Web especializado en UX/UI y front‑end moderno." />
+  <meta property="og:type" content="website" />
+  <meta name="theme-color" content="#0ea5e9" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    :root{
+      --bg: #0b1220;
+      --panel: #0f172a;
+      --text: #e5e7eb;
+      --muted:#9ca3af;
+      --brand:#0ea5e9;
+      --brand-2:#22d3ee;
+      --radius: 18px;
+      --shadow: 0 10px 30px rgba(2,6,23,.35);
+    }
+    body{margin:0;font-family:Inter,system-ui;background:var(--bg);color:var(--text)}
+    a{color:var(--brand);text-decoration:none}
+    a:hover{color:var(--brand-2)}
+    .wrap{max-width:1120px;margin:auto;padding:28px}
+    header{position:sticky;top:0;backdrop-filter:blur(10px);background:rgba(11,18,32,.9)}
+    nav{display:flex;justify-content:space-between;align-items:center}
+    .brand{display:flex;align-items:center;gap:10px;font-weight:800}
+    .nav-links a{margin:0 10px;color:var(--text)}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;font-weight:600;background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#06121f;border:0;transition:.3s}
+    .btn:hover{transform:scale(1.05);box-shadow:0 0 20px rgba(14,165,233,.4)}
+    .btn.secondary{background:transparent;color:var(--text);border:1px solid rgba(255,255,255,.1)}
+    .card{background:var(--panel);border-radius:var(--radius);padding:20px;box-shadow:var(--shadow);transition:.3s}
+    .card:hover{transform:translateY(-5px);box-shadow:0 10px 25px rgba(14,165,233,.25)}
+    .skills img{width:22px;height:22px;margin-right:8px;vertical-align:middle}
+    .hero-banner{position:relative;overflow:hidden;border-radius:var(--radius);margin-bottom:40px;background:linear-gradient(135deg,rgba(14,165,233,0.2),rgba(34,211,238,0.1));}
+    .hero-banner video,.hero-banner img{width:100%;height:100%;object-fit:cover;opacity:0.15;position:absolute;top:0;left:0;z-index:0}
+    .hero-banner .overlay{position:relative;z-index:1;text-align:center;padding:80px 20px}
+    .hero-banner h1{font-size:clamp(32px,4vw,60px);margin:0;color:#fff;text-shadow:0 2px 10px rgba(0,0,0,.5)}
+    .hero-banner p{font-size:clamp(14px,1.4vw,18px);color:var(--muted);max-width:700px;margin:14px auto 0}
+    .project-img{width:100%;border-radius:14px;margin-bottom:10px;aspect-ratio:16/9;object-fit:cover;}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <nav>
+        <div class="brand"><i class="fa-solid fa-code"></i> Alessandro Caldana</div>
+        <div class="nav-links">
+          <a href="#proyectos">Proyectos</a>
+          <a href="#skills">Skills</a>
+          <a href="#experiencia">Experiencia</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
+    </div>
+  </header>
 
- <img align="right" height="270px" alt="guy" width="350" src="https://i.pinimg.com/originals/e4/26/70/e426702edf874b181aced1e2fa5c6cde.gif" /> </a>
- 
-### <h1>Hi there 👋 I am Alessandro Caldana</h1>
+  <div class="hero-banner">
+    <video autoplay muted loop playsinline poster="assets/banner.jpg">
+      <source src="https://cdn.coverr.co/videos/coverr-coding-on-laptop-1382/1080p.mp4" type="video/mp4">
+    </video>
+    <div class="overlay">
+      <h1>Hola, soy <span style="color:var(--brand-2)">Alessandro Caldana</span></h1>
+      <p>Ingeniero de Sistemas y Desarrollador Web apasionado por el diseño y la tecnología. <br>Transformo ideas en experiencias digitales con propósito.</p>
+    </div>
+  </div>
 
-> I am Sr fullStack developer & Tech Lead
-<br />
+  <main class="wrap">
+    <section class="hero" id="inicio">
+      <h2>Desarrollador Web y UX/UI</h2>
+      <p>Ingeniero de Sistemas recién graduado. Actualmente trabajo en el área de desarrollo web en <strong>Emdupar S.A. E.S.P.</strong>, optimizando módulos de facturación, portales web y APIs internas. Me especializo en crear experiencias visuales modernas y eficientes usando Angular, Node.js y PHP/MySQL.</p>
+      <div style="display:flex;gap:10px;margin-top:14px">
+        <a class="btn" href="#proyectos"><i class="fa-solid fa-rocket"></i> Ver proyectos</a>
+        <a class="btn secondary" href="mailto:alesscaldana@gmail.com"><i class="fa-regular fa-paper-plane"></i> Contáctame</a>
+      </div>
+    </section>
 
-<!--- 🌱 &nbsp;I'm currently studying for Bsc. (Hons.) in IT at University of Moratuwa-->
-- :computer: &nbsp;Connect with me on **[LinkedIn]**
-- 📫 How to reach me **acaldana00@gmail.com**
-- 📝 I am a systems engineer with Italian-Colombian nationality.
-- 💬 Ask me about: anything, I am happy to help
-<br><br>
+    <section id="proyectos" style="margin-top:32px">
+      <h2>Proyectos destacados</h2>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:20px;margin-top:20px">
+        <article class="card">
+          <img class="project-img" src="/mnt/data/10395101-8829-4330-bc36-2648248f1424.png" alt="Pagos Emdupar"/>
+          <h3>Pagos Emdupar (proxy + SPA)</h3>
+          <p>Integración segura entre frontend Angular y backend PHP con proxy HTTPS y control de sesiones.</p>
+        </article>
+        <article class="card">
+          <img class="project-img" src="/mnt/data/1d696ccb-7691-453b-a77d-fd225aba8752.png" alt="Factory Patterns API"/>
+          <h3>Factory Patterns API</h3>
+          <p>API modular en Node.js y TypeScript aplicando patrones de diseño como Factory Method y Abstract Factory.</p>
+        </article>
+        <article class="card">
+          <img class="project-img" src="/mnt/data/1e0b32f5-c27b-425d-9f1d-f73da7c6cc4b.png" alt="Sistema de Facturación"/>
+          <h3>Sistema de Facturación</h3>
+          <p>Sistema PHP/MySQL con CRUD, validaciones de stock y reportes para gestión de ventas.</p>
+        </article>
+      </div>
+    </section>
 
-## 💻 Technologies 
+    <section id="skills" style="margin-top:32px">
+      <h2>Skills principales</h2>
+      <div class="skills" style="display:flex;flex-wrap:wrap;gap:10px;margin-top:10px">
+        <span class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"/>HTML5</span>
+        <span class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>CSS3 / Tailwind</span>
+        <span class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"/>JavaScript / TypeScript</span>
+        <span class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angular/angular-original.svg"/>Angular</span>
+        <span class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"/>Node.js</span>
+        <span class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"/>PHP / MySQL</span>
+        <span class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"/>Figma</span>
+        <span class="skill"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"/>Git / GitHub</span>
+      </div>
+    </section>
 
-<div>
-  <img  alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
-  <img  alr="NestJS" src="https://img.shields.io/badge/NestJs-ea2845.svg?style=for-the-badge&logo=nestjs&logoColor=white" />
-  <img  alt="typescript" src="https://img.shields.io/badge/typescript-3178C6.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
-  <img  alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white"/>
-  <img  alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
-  <img  alt="React" src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
-  <img  alt="Redux" src="https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white"/>  
-  <img  alt="vue" src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D"/> 
-  <img  alt="NodeJS" src="https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node-dot-js&logoColor=white"/>
-  <img  alt="Express.js" src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB"/>
-  <img  alt="MongoDB" src ="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white"/>
-  <img  alt="sass" src ="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white"/>
-  <img  alt="tailwind" src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
-  <img  alt="java" src ="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white"/>
-  <img  alt="spring" src ="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"/>
-  <img  alt="python" src ="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"/>
-  <img  alt="aws" src ="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
-  <img  alt="styledComponent" src ="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
-  <img  alt="bootstrap" src ="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"/>
-  <img  alt="postgresql" src="https://img.shields.io/badge/postgreSQL-4169E1.svg?style=for-the-badge&logo=postgresql&logoColor=white"/> 
-  <img  alt="azure" src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" /> 
-  <img  alt="jenkins" src="https://img.shields.io/badge/jenkins-D24939.svg?style=for-the-badge&logo=jenkins&logoColor=white" /> 
- <br><br>
-</div>
+    <section id="experiencia" style="margin-top:32px">
+      <h2>Experiencia</h2>
+      <div class="card">
+        <h3>Emdupar S.A. E.S.P.</h3>
+        <p>Actualmente desempeño funciones en desarrollo web, enfocándome en la modernización del sistema de facturación y la optimización de portales para usuarios y administración. Implemento mejoras UX y gestión de datos en entornos PHP y Angular.</p>
+        <span class="chip">2025 · 5 meses</span>
+      </div>
+    </section>
 
- ## 🛠️ Software & Tools
- 
-<p>
-  &emsp;
-    <a href="#"><img alt="Codepen" src="https://img.shields.io/badge/Codepen-000000?style=for-the-badge&logo=codepen&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Linux" src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black"></a>
-  &emsp;
-    <a href="#"><img alt="Visual Studio Code" src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white"></a>
-  &emsp;
-    <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/Stack_Overflow-FE7A16?style=for-the-badge&logo=stack-overflow&logoColor=white"></a>
-&emsp;
-    <a href="#"><img alt="Stack Overflow" src="https://img.shields.io/badge/MacOS--9cf?style=for-the-badge&logo=apple&logoColor=white"></a>
-    &emsp;
-    <a href="#"><img alt="Docker" src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"></a>
-     &emsp;
-    <a href="#"><img alt="Postman" src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white"></a>
-     &emsp;
-    <a href="#"><img alt="AWS" src="https://img.shields.io/badge/Amazon_AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"></a>
-    &emsp;
-    <a href="#"><img alt="Trello" src="https://img.shields.io/badge/Trello-0052CC?style=for-the-badge&logo=trello&logoColor=white"></a>
-    &emsp;
-     <a href="#"><img alt="TFigma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white"></a>
-    &emsp; 
-   <a href="#"><img alt="Jira" src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=Jira&logoColor=white"></a>
-    &emsp;
-    
-</p>
+    <section id="contacto" style="margin-top:32px">
+      <h2>Contacto</h2>
+      <p>Si deseas colaborar o conocer más de mi trabajo, puedes escribirme directamente a <a href="mailto:alesscaldana@gmail.com">alesscaldana@gmail.com</a> o visitar mis redes.</p>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px" class="social">
+        <a href="https://github.com/AlessCaldana" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/alessandro-caldana" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/perruncho22" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </section>
 
+    <footer style="margin-top:32px;text-align:center;color:#9ca3af;font-size:14px">
+      © <span id="y"></span> · Hecho con <i class="fa-regular fa-heart"></i> por Alessandro Caldana
+    </footer>
+  </main>
 
-<br><br>
-
-## 🚥 Activity
-
-<p align="center">
- <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30" alt="Git"/>&nbsp;<i><b>Git Activeness</b></i>
-</p>
- 
-<p>
- <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=iscpatricio92&langs_count=8&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" alt="iscpatricio92" />
-</p>
-<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=iscpatricio92&show_icons=true&locale=en&theme=chartreuse-dark" alt="iscpatricio92" width="410"/>
-</p>
-
-<br><br><br><br><br><br><br><br>
-
-![Patricio's Graph](https://github-readme-activity-graph.vercel.app/graph?username=iscpatricio92&custom_title=Patricio's%20GitHub%20Activity%20Graph&bg_color=0D1117&color=7F3FBF&line=7F3FBF&point=7F3FBF&area_color=FFFFFF&title_color=FFFFFF&area=true)
-<br><br>
-<p align="center">
- <img src="https://media.giphy.com/media/QaMcXSekUWx7aogAUr/giphy.gif" width="30" />&nbsp;Git profile Trophies
-</p>
-<br>
-
-
-<p align="center">
- <a href="https://github.com/ryo-ma/github-profile-trophy">
-  <img src="https://github-profile-trophy.vercel.app/?username=iscpatricio92&layout=compact&theme=algolia" alt="iscpatricio92" />
- </a>
-</p>
-
-
-
-<p align="center">
-  <img  src="https://raw.githubusercontent.com/iscpatricio92/iscpatricio92/main/resources/img/github-contribution-grid-snake.svg"
-    alt="iscpatricio92" />
-</p>
-
-
-<br>
-
-## 😎 Connect with me
-<p align="left">
-  
-<a href="" target="blank"><img align="center" src="https://www.svgrepo.com/show/448234/linkedin.svg" alt="iscpatricio92" height="30" width="40" /></a>
-<a href="" target="blank"><img align="center" src="https://www.svgrepo.com/show/475686/stackoverflow-color.svg" alt="patricio" height="30" width="40" /></a>
-<a href="" target="blank"><img align="center" src="https://www.svgrepo.com/show/475700/youtube-color.svg" alt="iscpatricio" height="30" width="40" /></a>
-<a href="mailTo:acaldana00@gmail.com" target="blank"> <img align="center" src="https://www.svgrepo.com/show/349378/gmail.svg" alt="iscpatricio" height="30" width="40" /></a>
-<a href="https://github.com/AlessCaldana" target="blank"> <img align="center" alt="https://github.com/iscpatricio92" src="https://www.svgrepo.com/show/512317/github-142.svg" height="30" width="40" /></a>
-</p>
-<br>
-
-<br>
-
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
