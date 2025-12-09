@@ -1,6 +1,6 @@
 # 👋 ¡Hola, soy Alessandro Caldana!
 
-🎓 **Ingeniero de Sistemas** | 💻 **Desarrollador Web & UX/UI Designer**
+🎓 **Ingeniero de Sistemas** | 💻 **Desarrollador full stack & UX/UI Designer**
 
 Soy un apasionado por la tecnología, la innovación y el diseño.  
 Me encanta construir interfaces limpias, rápidas y funcionales, combinando **front-end moderno** con un enfoque en **experiencia de usuario (UX)**.
