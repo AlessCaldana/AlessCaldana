@@ -45,6 +45,10 @@ Me encanta construir interfaces limpias, rápidas y funcionales, combinando **fr
 🔹 Modernización del sistema de facturación  
 🔹 Optimización UX/UI  
 🔹 Integración de APIs y control de datos  
+**Mi diario** – Desarrollador Web  
+📆 *Desde 2025 (2 meses)*  
+🔹 Modernización el sistema web  
+🔹 Integración de APIs y control de datos  
 
 ---
 
