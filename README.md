@@ -41,6 +41,7 @@ Me encanta construir interfaces limpias, rápidas y funcionales, combinando **fr
 
 ## 🌟 Experiencia actual
 **Ingeniero de Sistemas** · Desarrollador Full Stack
+
 *EMDUPAR S.A. E.S.P. – Valledupar 2025* 
 
 🔹 Diseño e implementación de sistemas web Full Stack para la gestión integral de servicios internos.
