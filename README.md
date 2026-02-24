@@ -40,15 +40,21 @@ Me encanta construir interfaces limpias, rápidas y funcionales, combinando **fr
 ---
 
 ## 🌟 Experiencia actual
-**Emdupar S.A. E.S.P.** – Desarrollador Web  
-📆 *Desde 2025 (5 meses)*  
-🔹 Modernización del sistema de facturación  
-🔹 Optimización UX/UI  
-🔹 Integración de APIs y control de datos  
+**Ingeniero de Sistemas** · Desarrollador Full Stack
+   EMDUPAR S.A. E.S.P. – Valledupar 2025
+🔹Diseño e implementación de un sistema web Full Stack para la gestión integral del servicio de carro tanque.
+🔹Desarrollo de componentes frontend enfocados en la usabilidad y la experiencia de usuario (UX/UI). 
+🔹Construcción de la arquitectura backend para la gestión de usuarios, clientes, vehículos, conductores, despachos, entregas, pagos y facturación 
+🔹Implementación de control de acceso basado en roles, gestión de permisos y trazabilidad operativa.
+🔹Integración de bases de datos relacionales para garantizar un almacenamiento de datos seguro y confiable.
+🔹Generación de facturas en PDF, reportes administrativos y módulos de control de pagos.
+🔹Optimización de procesos previamente manuales, reduciendo errores operativos y mejorando los tiempos de respuesta
+
 **Mi diario** – Desarrollador Web  
 📆 *Desde 2025 (2 meses)*  
 🔹 Modernización el sistema web  
 🔹 Integración de APIs y control de datos  
+🔹 Gestión y modernización de la base de dato.
 
 ---
 
